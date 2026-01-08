@@ -13,11 +13,11 @@ spec:
         app: supermariogame
     spec:
       containers:
-      - image: raghuthesecurityexpert/supermariogitopsproject:2
+      - image: jonny21843/supermario-gitops-project:2
         name: supermariogame-container
         ports:
         - containerPort: 8080
- 
+        
 ---
 apiVersion: v1
 kind: Service
