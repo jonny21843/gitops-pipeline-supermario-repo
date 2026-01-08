@@ -28,6 +28,6 @@ jobs:
       - name: Run Trivy vulnerability scanner in tarball mode
         uses: aquasecurity/trivy-action@master
         with:
-          input: /github/workspace/supermario-gitops-project.tar
+          input: /github/jonny21843/supermario-gitops-project.tar
           exit-code: '0'
           severity: 'CRITICAL,HIGH'
